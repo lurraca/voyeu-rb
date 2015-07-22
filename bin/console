@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "voyeur"
+
+
+require "pry"
+Pry.start
