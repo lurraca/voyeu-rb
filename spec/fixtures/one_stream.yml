@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.watchpeoplecode.com/api/v1/streams/106101
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '394'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - HEAD, GET
+      Access-Control-Max-Age:
+      - '15'
+      Set-Cookie:
+      - session=.eJw9zLEKwjAQANBfkZsdkhaXQrdoUbgLKSnlshQ0FnOxCurU0n_XyfcBb4EhRagW2JyhAvT3FBpWZDqFcks808T-qENPwkKJTDvZHjV6rGHdwuX9GofPM18f_yIYLKng0vqYUDplzUFwciU2bsf-lKnZa57bZE3MLFGCdwW6-tetXwibLBI.CJGjQg.IJlvMf2icR2IdtEqerSbR_Ba130;
+        Domain=.www.watchpeoplecode.com; HttpOnly; Path=/
+      - subscribe_send_only_id=false; Path=/
+      Date:
+      - Wed, 22 Jul 2015 21:57:22 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: "{\n  \"data\": {\n    \"actual_start_time\": \"Sat, 11 Jul 2015 22:32:15
+        GMT\", \n    \"id\": 106101, \n    \"scheduled_start_time\": \"Sat, 11 Jul
+        2015 19:00:00 GMT\", \n    \"site\": \"youtube_stream\", \n    \"title\":
+        \"Making small reddit bots in python using PRAW\", \n    \"url\": \"http://www.youtube.com/watch?v=W6_te6Q_CDs\",
+        \n    \"user\": \"godlikesme\", \n    \"viewers\": null\n  }, \n  \"info\":
+        {\n    \"status\": 200\n  }\n}"
+    http_version: 
+  recorded_at: Wed, 22 Jul 2015 21:57:23 GMT
+recorded_with: VCR 2.9.3

@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.watchpeoplecode.com/api/v1/streamers/godlikesme
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '153'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - HEAD, GET
+      Access-Control-Max-Age:
+      - '15'
+      Set-Cookie:
+      - session=.eJw9zL0KwjAQAOBXkZsd0uhU6CBEpMJdsETKZSn426Q5BXWQlL67nfwe4BuhCxcoR1icoAR0KfgdKzJHhbEPnEnY1YVvKXKkQKYR22KBDiuYlnB-v27d5zlcH_-Cdb3muBfOvXjHX9SUWHBlHQ1eKKE5KOu22pu7mqtMuRHaVHM3_QAxYCzN.CJGuUw.a85WLzBGZcKL6zlJhCcfhIwhLDE;
+        Domain=.www.watchpeoplecode.com; HttpOnly; Path=/
+      - subscribe_send_only_id=false; Path=/
+      Date:
+      - Wed, 22 Jul 2015 22:44:35 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: "{\n  \"data\": {\n    \"name\": \"godlikesme\", \n    \"twitch\": \"mimimitor_\",
+        \n    \"youtube\": \"UCJAVLOqT6Mgn_YD5lAxxkUA\"\n  }, \n  \"info\": {\n    \"status\":
+        200\n  }\n}"
+    http_version: 
+  recorded_at: Wed, 22 Jul 2015 22:44:36 GMT
+- request:
+    method: get
+    uri: http://www.watchpeoplecode.com/api/v1/streamers/godlikesme/upcoming
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '52'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - HEAD, GET
+      Access-Control-Max-Age:
+      - '15'
+      Set-Cookie:
+      - session=.eJw9zLsKwjAUgOFXkTM7tCEuhW61JcI5xRINJ0vBG-amoILQ0nc3k9MP__DNMLoLVDOsTlAB6uhsxwU1hwL93fFEibUqrSHPnhw1Q-oNlqixhmUN5_frNn6e4fr4EyyOEX0bOSnJItdvpfXqi90uP5SklSQzBJtww5MSvWmD3deZW34lTiyF.CJGuUw.8bN4ZwLEKzppYz5csJ7j_tNodCg;
+        Domain=.www.watchpeoplecode.com; HttpOnly; Path=/
+      - subscribe_send_only_id=false; Path=/
+      Date:
+      - Wed, 22 Jul 2015 22:44:35 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: "{\n  \"data\": [], \n  \"info\": {\n    \"status\": 200\n  }\n}"
+    http_version: 
+  recorded_at: Wed, 22 Jul 2015 22:44:37 GMT
+recorded_with: VCR 2.9.3

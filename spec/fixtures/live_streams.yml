@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.watchpeoplecode.com/api/v1/streams/live
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1007'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - HEAD, GET
+      Access-Control-Max-Age:
+      - '15'
+      Set-Cookie:
+      - session=.eJw9zL0KwjAUBtBXkTs7NOpU6BAIisN3RUkJyVKwas1PFdShtvTdzeR0tjNR4y9UTrQ4U0nQybudLVjVBcLd25F7q_fCGQ42sGd16g8GAhoVzUtq369b83nG6-Nf2H6bOODL-jjAIDdy5CAHVl02ec6lU-0KOgqEuIapN5BV7uYfS48tTA.CJGf7g.QcSY2pl4PphzvscSqwmHpyCWUDI;
+        Domain=.www.watchpeoplecode.com; HttpOnly; Path=/
+      - subscribe_send_only_id=false; Path=/
+      Date:
+      - Wed, 22 Jul 2015 21:43:10 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: "{\n  \"data\": [\n    {\n      \"actual_start_time\": \"Tue, 21 Jul
+        2015 04:10:31 GMT\", \n      \"id\": 106125, \n      \"scheduled_start_time\":
+        null, \n      \"site\": \"twitch_stream\", \n      \"title\": \"Node/io.js
+        \\u2014 SVG Animation\", \n      \"url\": \"http://www.twitch.tv/humanoidism\",
+        \n      \"user\": null, \n      \"viewers\": 10\n    }, \n    {\n      \"actual_start_time\":
+        \"Tue, 14 Jul 2015 20:11:55 GMT\", \n      \"id\": 106056, \n      \"scheduled_start_time\":
+        null, \n      \"site\": \"twitch_stream\", \n      \"title\": \"Optimalist,
+        AngularJS, Ionic w/ Krz\", \n      \"url\": \"http://www.twitch.tv/krzjn\",
+        \n      \"user\": null, \n      \"viewers\": 20\n    }, \n    {\n      \"actual_start_time\":
+        \"Thu, 02 Jul 2015 14:29:55 GMT\", \n      \"id\": 105967, \n      \"scheduled_start_time\":
+        null, \n      \"site\": \"twitch_stream\", \n      \"title\": \"Twitch plays
+        Large Scale Deep neural net (shout objects to dream about)\", \n      \"url\":
+        \"http://www.twitch.tv/317070\", \n      \"user\": null, \n      \"viewers\":
+        31\n    }\n  ], \n  \"info\": {\n    \"status\": 200\n  }\n}"
+    http_version: 
+  recorded_at: Wed, 22 Jul 2015 21:43:11 GMT
+recorded_with: VCR 2.9.3

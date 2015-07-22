@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.watchpeoplecode.com/api/v1/streams/upcoming
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '359'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - HEAD, GET
+      Access-Control-Max-Age:
+      - '15'
+      Set-Cookie:
+      - session=.eJxNzM0KgkAQAOBXiTl3UI-Cty1JmBFkbZm5CGXZ_hVUEK747nXse4BvgcGOUC6wOUEJqIOVmjNSfYbuZjlRZH3IxZBjR5ZUF1uDOWqsYN3C-fW8Du-Hv9z_Cj-LkiCKM9ad56KfRVMUc3SYpg-ZXcLYRFFj4KIJbb0PNFW_bv0CS0Qttw.CJGhLQ.45X6lZjolfyrEJviy_z0jXyRLxM;
+        Domain=.www.watchpeoplecode.com; HttpOnly; Path=/
+      - subscribe_send_only_id=false; Path=/
+      Date:
+      - Wed, 22 Jul 2015 21:48:29 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: "{\n  \"data\": [\n    {\n      \"actual_start_time\": null, \n      \"id\":
+        3888, \n      \"scheduled_start_time\": null, \n      \"site\": \"twitch_stream\",
+        \n      \"title\": \"C# Design Patterns: Template [Day1 of 2] 6:45pm EST\",
+        \n      \"url\": \"http://www.twitch.tv/ariugwu\", \n      \"user\": \"Arinzechukwu\",
+        \n      \"viewers\": null\n    }\n  ], \n  \"info\": {\n    \"status\": 200\n
+        \ }\n}"
+    http_version: 
+  recorded_at: Wed, 22 Jul 2015 21:48:31 GMT
+recorded_with: VCR 2.9.3

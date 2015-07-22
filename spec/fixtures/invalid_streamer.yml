@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.watchpeoplecode.com/api/v1/streamers/NOTXXFOUND
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message: INTERNAL SERVER ERROR
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '291'
+      Set-Cookie:
+      - session=.eJw9zMEKgkAQANBfiTl3cIUugodgZTGYWYgR2bkIWelua0EFyYr_XqfeB7wFOn-GYoHNCQpAjl6My0g3GYbRu0ST41pJS8EF8qSPk21RIWMJ6xb61_PavR-3y_1fSKiUcJOTOUThOpeAs-MYSQ-ZZRkt9x_U-2QNztRWClO9w6H8desXJNUsmw.CJGqoA.pi5QswsBmOFkUaTnCbBAm991Dys;
+        Domain=.www.watchpeoplecode.com; HttpOnly; Path=/
+      - subscribe_send_only_id=false; Path=/
+      Date:
+      - Wed, 22 Jul 2015 22:28:48 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+        <title>500 Internal Server Error</title>
+        <h1>Internal Server Error</h1>
+        <p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+    http_version: 
+  recorded_at: Wed, 22 Jul 2015 22:28:49 GMT
+recorded_with: VCR 2.9.3

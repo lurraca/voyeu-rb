@@ -1,0 +1,140 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.watchpeoplecode.com/api/v1/streamers/godlikesme
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '153'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - HEAD, GET
+      Access-Control-Max-Age:
+      - '15'
+      Set-Cookie:
+      - session=.eJw9zM0KgkAQAOBXiTl3UOskeNuIhJklmVpmL0I_sj9aUIGY-O7tqe8Bvhlaf4NyhtUFSkDuvd1LRuqUYXBevjQIH3JrKEggT6oZtMEcGStY1nB9v7r284z3x78Qg1vNcSNFHTDUAxVN1EpGUmdv2TniY-pwsmY3kbGp76OMVeqWHyhVLTw.CJGtog.bzLQBm6QflVQvc9tf63K8B6a7Qo;
+        Domain=.www.watchpeoplecode.com; HttpOnly; Path=/
+      - subscribe_send_only_id=false; Path=/
+      Date:
+      - Wed, 22 Jul 2015 22:41:38 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: "{\n  \"data\": {\n    \"name\": \"godlikesme\", \n    \"twitch\": \"mimimitor_\",
+        \n    \"youtube\": \"UCJAVLOqT6Mgn_YD5lAxxkUA\"\n  }, \n  \"info\": {\n    \"status\":
+        200\n  }\n}"
+    http_version: 
+  recorded_at: Wed, 22 Jul 2015 22:41:40 GMT
+- request:
+    method: get
+    uri: http://www.watchpeoplecode.com/api/v1/streamers/godlikesme/live
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '52'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - HEAD, GET
+      Access-Control-Max-Age:
+      - '15'
+      Set-Cookie:
+      - session=.eJw9zLEKwkAMANBfkcwOV8Sl0MFyIB2SopyUZCnYqr3UKKggXOm_q4vvA94Ebewhn2BxhBwwXKNs2ZE_ONQhciLjUGXSkLJSJL-3usEMAxYwL6F7Ps7t6z6ebv9C9LLCUCX0pdVeImqpYr8O35zKgbQ31I2TgI6Nk_huLbvi280fPHItOQ.CJGtqg.cZ3oLJJgv_6OQXYFSXnFkDcTGxk;
+        Domain=.www.watchpeoplecode.com; HttpOnly; Path=/
+      - subscribe_send_only_id=false; Path=/
+      Date:
+      - Wed, 22 Jul 2015 22:41:46 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: "{\n  \"data\": [], \n  \"info\": {\n    \"status\": 200\n  }\n}"
+    http_version: 
+  recorded_at: Wed, 22 Jul 2015 22:41:47 GMT
+- request:
+    method: get
+    uri: http://www.watchpeoplecode.com/api/v1/streamers/godlikesme/live
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '52'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - HEAD, GET
+      Access-Control-Max-Age:
+      - '15'
+      Set-Cookie:
+      - session=.eJxNzMEKgkAQANBfiTl3cBe7CB6CBfEwsxg7yHgRssJd3YIKpBX_vY69D3gr9P4CxQq7MxSAbvZdJRkZzjCMXhJFcbXqWgoSyJM5RduiQoclbHsYXs9b_35M1_tfcdSYmsVW_KEwaGvqA5lGYZS8a1mT5lwi5-jG2ZpxsoaTLOWv274RkyxB.CJGt0Q.8KF_uWTa-udwRVYqS4r3eUdCfD8;
+        Domain=.www.watchpeoplecode.com; HttpOnly; Path=/
+      - subscribe_send_only_id=false; Path=/
+      Date:
+      - Wed, 22 Jul 2015 22:42:25 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: "{\n  \"data\": [], \n  \"info\": {\n    \"status\": 200\n  }\n}"
+    http_version: 
+  recorded_at: Wed, 22 Jul 2015 22:42:26 GMT
+recorded_with: VCR 2.9.3

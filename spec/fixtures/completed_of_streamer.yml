@@ -1,0 +1,339 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.watchpeoplecode.com/api/v1/streamers/godlikesme
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '153'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - HEAD, GET
+      Access-Control-Max-Age:
+      - '15'
+      Set-Cookie:
+      - session=.eJw9zLEKwjAQANBfkZsdmmKXQrdgyXBXKKnhshSsSpIaBRWKKf13M_kB760w-gvUK-zOUAPqu7ctFySHAoPznCiyVsIaChzIk-xjZ1Cgxga2PUzv1238POfr419YjRn1kUol2JDr5PSlZJ2VquJwClgOCxk-UMLKtpS7o-elyd32AzW5LRM.CJGuhg.CxPCgnSFy_SdBEcIUgQDXMyAM6g;
+        Domain=.www.watchpeoplecode.com; HttpOnly; Path=/
+      - subscribe_send_only_id=false; Path=/
+      Date:
+      - Wed, 22 Jul 2015 22:45:26 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: "{\n  \"data\": {\n    \"name\": \"godlikesme\", \n    \"twitch\": \"mimimitor_\",
+        \n    \"youtube\": \"UCJAVLOqT6Mgn_YD5lAxxkUA\"\n  }, \n  \"info\": {\n    \"status\":
+        200\n  }\n}"
+    http_version: 
+  recorded_at: Wed, 22 Jul 2015 22:45:27 GMT
+- request:
+    method: get
+    uri: http://www.watchpeoplecode.com/api/v1/streamers/godlikesme/completed
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '18041'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - HEAD, GET
+      Access-Control-Max-Age:
+      - '15'
+      Set-Cookie:
+      - session=.eJw9zL0KwjAQAOBXkZsdEn-WQgclUjrcBcuVcFkKxqqJrYIKoqXvbie_B_gGaOIRsgFmB8gAuYu-EEWmVpguUb7UC5faO0qSKJKpeutQI2MO4xzC83FqXvdre_sXvpcF8mZJRa2Et4lSWJM5a8u7t3XysVxFYZqaqiNTrpCDtvt86sYfE7osHQ.CJGuhg.mCZGoYwqq2R3EmeircxNNsUHY1o;
+        Domain=.www.watchpeoplecode.com; HttpOnly; Path=/
+      - subscribe_send_only_id=false; Path=/
+      Date:
+      - Wed, 22 Jul 2015 22:45:26 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: "{\n  \"data\": [\n    {\n      \"actual_start_time\": \"Mon, 15 Jun
+        2015 22:21:47 GMT\", \n      \"id\": 106115, \n      \"scheduled_start_time\":
+        \"Mon, 15 Jun 2015 17:30:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"(Hopefully) finishing my work on histsync.io 1.0\", \n
+        \     \"url\": \"http://www.youtube.com/watch?v=XE0wKCk6czE\", \n      \"user\":
+        \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\":
+        \"Sat, 30 May 2015 18:35:03 GMT\", \n      \"id\": 88790, \n      \"scheduled_start_time\":
+        \"Sat, 30 May 2015 19:00:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"Programming Talk Show episode 3: talking to Justin M. Keyes,
+        neovim contributor\", \n      \"url\": \"http://www.youtube.com/watch?v=PHppoe4GxF8\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Sun, 15 Mar 2015 18:04:29 GMT\", \n      \"id\":
+        3826, \n      \"scheduled_start_time\": \"Sun, 15 Mar 2015 18:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Building a Search
+        Engine -- WPC Online Conference Talk: ELI5/Recap\", \n      \"url\": \"http://www.youtube.com/watch?v=7Fx0irD75cE\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Mon, 16 Mar 2015 22:03:31 GMT\", \n      \"id\":
+        3832, \n      \"scheduled_start_time\": \"Mon, 16 Mar 2015 22:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Playing vimgolf
+        for a couple of hours\", \n      \"url\": \"http://www.youtube.com/watch?v=gdRmp5_9JPA\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Wed, 18 Feb 2015 13:00:11 GMT\", \n      \"id\":
+        3652, \n      \"scheduled_start_time\": \"Wed, 18 Feb 2015 12:55:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Building a Search
+        Engine s02e04\", \n      \"url\": \"http://www.youtube.com/watch?v=3a0VNaPPSMI\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Tue, 16 Jun 2015 17:37:49 GMT\", \n      \"id\":
+        89182, \n      \"scheduled_start_time\": \"Tue, 16 Jun 2015 18:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Releasing histsync.io
+        1.0\", \n      \"url\": \"http://www.youtube.com/watch?v=L0waf97qFEE\", \n
+        \     \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Sat, 17 Jan 2015 21:07:11 GMT\", \n      \"id\":
+        60, \n      \"scheduled_start_time\": \"Sat, 17 Jan 2015 20:00:00 GMT\", \n
+        \     \"site\": \"youtube_stream\", \n      \"title\": \"Building a Search
+        Engine: episode 10 // profiling python code\", \n      \"url\": \"http://www.youtube.com/watch?v=M_v3vm3EhoA\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Thu, 11 Jun 2015 17:45:15 GMT\", \n      \"id\":
+        89135, \n      \"scheduled_start_time\": null, \n      \"site\": \"youtube_stream\",
+        \n      \"title\": \"Programming Talk Show. Episode 5. Geoff Greer, Co-Founder
+        of Floobits, author of ag\", \n      \"url\": \"http://www.youtube.com/watch?v=3A_oTuzGoeE\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Thu, 19 Feb 2015 19:43:51 GMT\", \n      \"id\":
+        3671, \n      \"scheduled_start_time\": \"Thu, 19 Feb 2015 19:40:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Building a Search
+        Engine -- s02e07\", \n      \"url\": \"http://www.youtube.com/watch?v=34lmK9CYx4M\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Thu, 04 Jun 2015 23:05:49 GMT\", \n      \"id\":
+        88832, \n      \"scheduled_start_time\": null, \n      \"site\": \"youtube_stream\",
+        \n      \"title\": \"[reupload] Programming Talk Show episode 3: talking to
+        Justin M. Keyes, neovim contributor\", \n      \"url\": \"http://www.youtube.com/watch?v=R7z2GQr9-tg\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Tue, 10 Feb 2015 00:03:49 GMT\", \n      \"id\":
+        433, \n      \"scheduled_start_time\": \"Mon, 09 Feb 2015 22:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Building a Search
+        Engine -- Season 2 episode 2\", \n      \"url\": \"http://www.youtube.com/watch?v=AWLzSIFbbeA\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Sun, 01 Feb 2015 23:32:18 GMT\", \n      \"id\":
+        54, \n      \"scheduled_start_time\": \"Sun, 01 Feb 2015 22:00:00 GMT\", \n
+        \     \"site\": \"youtube_stream\", \n      \"title\": \"Building an idea
+        note-taking app in python using flask -- episode 4\", \n      \"url\": \"http://www.youtube.com/watch?v=4iYquLKgqMU\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Sat, 11 Jul 2015 22:32:15 GMT\", \n      \"id\":
+        106101, \n      \"scheduled_start_time\": \"Sat, 11 Jul 2015 19:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Making small reddit
+        bots in python using PRAW\", \n      \"url\": \"http://www.youtube.com/watch?v=W6_te6Q_CDs\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Wed, 04 Feb 2015 20:03:53 GMT\", \n      \"id\":
+        63, \n      \"scheduled_start_time\": \"Wed, 04 Feb 2015 17:00:00 GMT\", \n
+        \     \"site\": \"youtube_stream\", \n      \"title\": \"[3 hour long] Actually
+        & finally building a reddit bot for /r/WatchPeopleCode\", \n      \"url\":
+        \"http://www.youtube.com/watch?v=DxadFkl7MXU\", \n      \"user\": \"godlikesme\",
+        \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\": \"Thu,
+        11 Jun 2015 20:46:02 GMT\", \n      \"id\": 89137, \n      \"scheduled_start_time\":
+        null, \n      \"site\": \"youtube_stream\", \n      \"title\": \"\\\"How to
+        learn programming?\\\"\", \n      \"url\": \"http://www.youtube.com/watch?v=6XtSPvjt87w\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Sat, 31 Jan 2015 22:29:26 GMT\", \n      \"id\":
+        49, \n      \"scheduled_start_time\": \"Sat, 31 Jan 2015 18:00:00 GMT\", \n
+        \     \"site\": \"youtube_stream\", \n      \"title\": \"[4 hour long] Building
+        reddit bot for /r/WatchPeopleCode\", \n      \"url\": \"http://www.youtube.com/watch?v=gWZuxblI0J4\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Tue, 07 Jul 2015 19:17:03 GMT\", \n      \"id\":
+        106003, \n      \"scheduled_start_time\": \"Tue, 07 Jul 2015 19:30:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Making HistSync.io
+        more contributor-friendly\", \n      \"url\": \"http://www.youtube.com/watch?v=8RTaTQx5S4M\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Mon, 09 Feb 2015 02:25:10 GMT\", \n      \"id\":
+        122, \n      \"scheduled_start_time\": \"Sun, 08 Feb 2015 23:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Building a Search
+        Engine -- Season 2 episode 1\", \n      \"url\": \"http://www.youtube.com/watch?v=L2DJhwANoUQ\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": null, \n      \"id\": 3856, \n      \"scheduled_start_time\":
+        null, \n      \"site\": \"wpc_stream\", \n      \"title\": \"Long arithmetic
+        in C++ -- division\", \n      \"url\": \"http://www.watchpeoplecode.com/streamer/godlikesme\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Fri, 24 Apr 2015 21:15:58 GMT\", \n      \"id\":
+        37813, \n      \"scheduled_start_time\": \"Fri, 24 Apr 2015 17:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Flayr -- django
+        app that displays flairs in all subreddits -- finishing work\", \n      \"url\":
+        \"http://www.youtube.com/watch?v=O4Hw0Qz4m80\", \n      \"user\": \"godlikesme\",
+        \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\": \"Mon,
+        16 Mar 2015 16:17:28 GMT\", \n      \"id\": 3831, \n      \"scheduled_start_time\":
+        \"Mon, 16 Mar 2015 15:50:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"Me&Nate re-design the WatchPeopleCode website!\", \n      \"url\":
+        \"http://www.youtube.com/watch?v=BMeyV75AHzA\", \n      \"user\": \"godlikesme\",
+        \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\": \"Fri,
+        20 Mar 2015 20:02:27 GMT\", \n      \"id\": 3842, \n      \"scheduled_start_time\":
+        \"Fri, 20 Mar 2015 20:00:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"Experiment: live helping people (advice, codereview, bugfixes)\",
+        \n      \"url\": \"http://www.youtube.com/watch?v=jUdtecMBdQs\", \n      \"user\":
+        \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\":
+        \"Wed, 06 May 2015 00:59:09 GMT\", \n      \"id\": 37904, \n      \"scheduled_start_time\":
+        \"Tue, 05 May 2015 19:00:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"I planned to start a project, ended up chatting about programming,
+        politics, culture\", \n      \"url\": \"http://www.youtube.com/watch?v=b9Bvv3z4S8A\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Wed, 11 Feb 2015 01:37:28 GMT\", \n      \"id\":
+        441, \n      \"scheduled_start_time\": \"Tue, 10 Feb 2015 22:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Building a Search
+        Engine -- s02e03\", \n      \"url\": \"http://www.youtube.com/watch?v=5hfXrhLaqso\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Wed, 28 Jan 2015 03:38:56 GMT\", \n      \"id\":
+        4, \n      \"scheduled_start_time\": \"Tue, 27 Jan 2015 18:45:00 GMT\", \n
+        \     \"site\": \"youtube_stream\", \n      \"title\": \"5-hour-long Live
+        Stream: Building an /r/WatchPeopleCode video app [only last 4 hours available]\",
+        \n      \"url\": \"http://www.youtube.com/watch?v=iIbzRZqR58g\", \n      \"user\":
+        \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\":
+        \"Fri, 10 Jul 2015 23:26:10 GMT\", \n      \"id\": 106114, \n      \"scheduled_start_time\":
+        \"Fri, 10 Jul 2015 21:30:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"C++ operator overloding -- coding a \\\"long arithmetic\\\"
+        integer lib -- part 2\", \n      \"url\": \"http://www.youtube.com/watch?v=hLJqYF9kOjw\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Tue, 10 Feb 2015 12:51:21 GMT\", \n      \"id\":
+        448, \n      \"scheduled_start_time\": \"Tue, 10 Feb 2015 11:25:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Building an idea
+        note taking app in python using flask -- episode 5\", \n      \"url\": \"http://www.youtube.com/watch?v=bcemIjLL_LI\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Fri, 13 Mar 2015 14:37:01 GMT\", \n      \"id\":
+        3809, \n      \"scheduled_start_time\": \"Fri, 13 Mar 2015 14:30:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Creating a reddit
+        beetlejuicing bot\", \n      \"url\": \"http://www.youtube.com/watch?v=Mjpwb515554\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Thu, 19 Feb 2015 16:20:25 GMT\", \n      \"id\":
+        3667, \n      \"scheduled_start_time\": \"Thu, 19 Feb 2015 16:18:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Building a Search
+        Engine -- s02e06\", \n      \"url\": \"http://www.youtube.com/watch?v=gJbOGne-XbU\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Wed, 06 May 2015 19:10:22 GMT\", \n      \"id\":
+        37915, \n      \"scheduled_start_time\": \"Wed, 06 May 2015 16:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Starting a project:
+        \\\"cloud bash history\\\" app using flask+python\", \n      \"url\": \"http://www.youtube.com/watch?v=iw83arKFgzk\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Thu, 05 Feb 2015 21:56:44 GMT\", \n      \"id\":
+        109, \n      \"scheduled_start_time\": null, \n      \"site\": \"youtube_stream\",
+        \n      \"title\": \"Building a Search Engine -- episode 10 // messing with
+        reddit api!\", \n      \"url\": \"http://www.youtube.com/watch?v=11AGF6fiRk8\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Fri, 05 Jun 2015 17:08:09 GMT\", \n      \"id\":
+        88842, \n      \"scheduled_start_time\": \"Fri, 05 Jun 2015 17:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Programming Talk
+        Show. Episode 4. /u/mncke , the author of Squire and Necromancer for /r/thebutton\",
+        \n      \"url\": \"http://www.youtube.com/watch?v=zU7ltY9Dmnk\", \n      \"user\":
+        \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\":
+        \"Mon, 26 Jan 2015 00:23:13 GMT\", \n      \"id\": 11, \n      \"scheduled_start_time\":
+        \"Sun, 25 Jan 2015 22:00:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"Building an idea note-taking app in python using flask,
+        episode 3\", \n      \"url\": \"http://www.youtube.com/watch?v=FvgDADZ7nyM\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Thu, 23 Apr 2015 20:16:01 GMT\", \n      \"id\":
+        37811, \n      \"scheduled_start_time\": \"Thu, 23 Apr 2015 20:15:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Building a django
+        app that displays all flairs in all subreddits\", \n      \"url\": \"http://www.youtube.com/watch?v=Y8u1-kK52gs\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Wed, 11 Mar 2015 19:49:51 GMT\", \n      \"id\":
+        3804, \n      \"scheduled_start_time\": \"Wed, 11 Mar 2015 19:40:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Solving random
+        HackerRank problems\", \n      \"url\": \"http://www.youtube.com/watch?v=QZCdQYtcPhI\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Tue, 03 Mar 2015 15:01:57 GMT\", \n      \"id\":
+        3784, \n      \"scheduled_start_time\": \"Tue, 03 Mar 2015 14:55:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Building a Search
+        Engine -- s03e01 -- trying to figure out how to beat reddit's built-in search\",
+        \n      \"url\": \"http://www.youtube.com/watch?v=f9TTORUjVrM\", \n      \"user\":
+        \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\":
+        \"Tue, 24 Feb 2015 14:19:28 GMT\", \n      \"id\": 3739, \n      \"scheduled_start_time\":
+        \"Tue, 24 Feb 2015 14:18:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"Building a Search engine s02e08\", \n      \"url\": \"http://www.youtube.com/watch?v=v8zqhCKKEIM\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Thu, 19 Feb 2015 12:47:39 GMT\", \n      \"id\":
+        3665, \n      \"scheduled_start_time\": \"Thu, 19 Feb 2015 12:40:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Building a Search
+        Engine -- s02e05\", \n      \"url\": \"http://www.youtube.com/watch?v=27o9KTLpysg\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Wed, 29 Apr 2015 22:26:29 GMT\", \n      \"id\":
+        37825, \n      \"scheduled_start_time\": \"Wed, 29 Apr 2015 19:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Livestreamed C++
+        Course: episode 2\", \n      \"url\": \"http://www.youtube.com/watch?v=RXjWQmRzLAQ\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Fri, 08 May 2015 22:59:02 GMT\", \n      \"id\":
+        37943, \n      \"scheduled_start_time\": \"Fri, 08 May 2015 19:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"My Sort of C++
+        Course: episode 5\", \n      \"url\": \"http://www.youtube.com/watch?v=T0CHo9326E8\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Fri, 22 May 2015 19:12:56 GMT\", \n      \"id\":
+        88579, \n      \"scheduled_start_time\": \"Fri, 22 May 2015 17:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Programming talkshow.
+        Discussing Servo and Rust with Josh Matthews, Mozilla Engineer\", \n      \"url\":
+        \"http://www.youtube.com/watch?v=87SfA1sw7vY\", \n      \"user\": \"godlikesme\",
+        \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\": \"Sat,
+        30 May 2015 05:05:07 GMT\", \n      \"id\": 88770, \n      \"scheduled_start_time\":
+        \"Fri, 29 May 2015 15:00:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"filthypresser bot for /r/thebutton\", \n      \"url\":
+        \"http://www.youtube.com/watch?v=gNrFy5h2voY\", \n      \"user\": \"godlikesme\",
+        \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\": \"Fri,
+        01 May 2015 00:04:24 GMT\", \n      \"id\": 37827, \n      \"scheduled_start_time\":
+        \"Thu, 30 Apr 2015 15:00:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"Working on my .vimrc then python webdev\", \n      \"url\":
+        \"http://www.youtube.com/watch?v=cvAL0zzhzKo\", \n      \"user\": \"godlikesme\",
+        \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\": \"Mon,
+        02 Mar 2015 14:38:07 GMT\", \n      \"id\": 3777, \n      \"scheduled_start_time\":
+        \"Mon, 02 Mar 2015 14:30:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"Building a Search Engine -- s02e09\", \n      \"url\":
+        \"http://www.youtube.com/watch?v=6fcWQIxZO1M\", \n      \"user\": \"godlikesme\",
+        \n      \"viewers\": null\n    }, \n    {\n      \"actual_start_time\": \"Sun,
+        18 Jan 2015 20:56:08 GMT\", \n      \"id\": 14, \n      \"scheduled_start_time\":
+        \"Sun, 18 Jan 2015 19:00:00 GMT\", \n      \"site\": \"youtube_stream\", \n
+        \     \"title\": \"Live Coding Sunday #2 -- Building an idea note-taking app
+        in python // episode 2\", \n      \"url\": \"http://www.youtube.com/watch?v=sP5roNj6vEU\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Sat, 21 Feb 2015 13:01:20 GMT\", \n      \"id\":
+        3709, \n      \"scheduled_start_time\": \"Sat, 21 Feb 2015 12:49:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"WPC hackathon:
+        building an anti-procrastination app\", \n      \"url\": \"http://www.youtube.com/watch?v=JfbzDv3fcsA\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Sat, 16 May 2015 00:30:32 GMT\", \n      \"id\":
+        66601, \n      \"scheduled_start_time\": \"Fri, 15 May 2015 21:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"Programming Talk
+        Show. Today Talking to Mike Conley, Mozilla Engineer\", \n      \"url\": \"http://www.youtube.com/watch?v=f968E8eZmvM\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }, \n    {\n
+        \     \"actual_start_time\": \"Wed, 08 Jul 2015 20:40:55 GMT\", \n      \"id\":
+        106013, \n      \"scheduled_start_time\": \"Wed, 08 Jul 2015 21:00:00 GMT\",
+        \n      \"site\": \"youtube_stream\", \n      \"title\": \"C++ operator overloding
+        -- coding a \\\"long arithmetic\\\" integer lib\", \n      \"url\": \"http://www.youtube.com/watch?v=rral8T6zCPU\",
+        \n      \"user\": \"godlikesme\", \n      \"viewers\": null\n    }\n  ], \n
+        \ \"info\": {\n    \"status\": 200\n  }\n}"
+    http_version: 
+  recorded_at: Wed, 22 Jul 2015 22:45:28 GMT
+recorded_with: VCR 2.9.3
