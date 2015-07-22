@@ -1,9 +1,9 @@
 require 'spec_helper'
 
 describe Voyeur::Stream do
-
-  describe '#find' do
+  describe '.find' do
     context 'invalid ID' do
+
       it 'raise a StreamNotFound Exception' do
         VCR.use_cassette('invalid_stream') do
           expect{described_class.find(10134239423)}.to raise_error(Voyeur::StreamNotFound)
@@ -11,6 +11,7 @@ describe Voyeur::Stream do
       end
     end
     context 'valid ID' do
+
       it 'returns the requested stream' do
         VCR.use_cassette('one_stream') do
           stream = described_class.find(106101)
@@ -24,7 +25,8 @@ describe Voyeur::Stream do
     end
   end
 
-  describe '#live' do
+  describe '.live' do
+
     it 'returns a list of streams' do
       VCR.use_cassette('live_streams') do
         response = described_class.live
@@ -34,7 +36,8 @@ describe Voyeur::Stream do
     end
   end
 
-  describe '#upcoming' do
+  describe '.upcoming' do
+
     it 'returns a list of upcoming streams' do
       VCR.use_cassette('upcoming_streams') do
         response = described_class.upcoming
@@ -44,7 +47,8 @@ describe Voyeur::Stream do
     end
   end
 
-  describe '#upcoming' do
+  describe '.upcoming' do
+
     xit 'returns a list of completed streams' do
       VCR.use_cassette('upcoming_streams') do
         response = described_class.completed
