@@ -4,8 +4,11 @@ require 'json'
 require 'voyeur/version'
 
 module Voyeur
-  # Your code goes here...
+  class StreamNotFound < Exception; end
+
   class Base
     ENDPOINT = 'http://www.watchpeoplecode.com/api/v1'
   end
+
+  autoload :Stream, 'voyeur/stream'
 end
