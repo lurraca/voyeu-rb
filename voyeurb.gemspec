@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'voyeurb/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Voyeu-rb"
+  spec.name          = "voyeu-rb"
   spec.version       = Voyeurb::VERSION
   spec.authors       = ["Luis Urraca"]
   spec.email         = ["me@lurraca.com"]
