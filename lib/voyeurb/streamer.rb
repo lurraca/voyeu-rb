@@ -1,4 +1,4 @@
-module Voyeur
+module Voyeurb
   class Streamer < Base
     attr_reader :name, :twitch, :youtube
 

@@ -1,12 +1,12 @@
 require 'spec_helper'
 
-describe Voyeur::Stream do
+describe Voyeurb::Stream do
   describe '.find' do
     context 'invalid ID' do
 
       it 'raise a StreamNotFound Exception' do
         VCR.use_cassette('invalid_stream') do
-          expect{described_class.find(10134239423)}.to raise_error(Voyeur::StreamNotFound)
+          expect{described_class.find(10134239423)}.to raise_error(Voyeurb::StreamNotFound)
         end
       end
     end

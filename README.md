@@ -1,6 +1,6 @@
-# Voyeur
+# Voyeu-rb
 
-Voyeur is a Ruby Wrapper for the [WatchPeopleCode.com](http://watchpeople.code.com) API.
+Voyeu-rb is a Ruby Wrapper for the [WatchPeopleCode.com](http://watchpeople.code.com) API.
 
 ## Installation
 
@@ -16,62 +16,62 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install voyeur
+    $ gem install voyeurb
 
 ## Usage
 
 **List live streams**
 
 ```ruby
-Voyeur::Streams.live
+Voyeurbb::Stream.live
 ```
 
 **List upcoming streams**
 
 ```ruby
-Voyeur::Streams.upcoming
+Voyeurb::Stream.upcoming
 ```
 
 **List completed streams**
 
  ```ruby
-Voyeur::Streams.completed
+Voyeurb::Stream.completed
 ```
 
 **Get information of the stream by ID**
 
 ```ruby
-Voyeur::Streams.find(:id)
+Voyeurb::Stream.find(:id)
 ```
 
 **List all streamers**
 
 ```ruby
-Voyeur::Streamers.all
+Voyeurb::Streamer.all
 ```
 
 **Get information of a streamer by name**
 
 ```ruby
-Voyeur::Streamers.find_by_name(:name)
+Voyeurb::Streamer.find_by_name(:name)
 ```
 
 **List live streams of a streamer**
 
 ```ruby
-Voyeur::Streamers.find_by_name(:name).live
+Voyeurb::Streamer.find_by_name(:name).live
 ```
 
 **List upcoming streams of a streamer**
 
 ```ruby
-Voyeur::Streamers.find_by_name(:name).upcoming
+Voyeurb::Streamer.find_by_name(:name).upcoming
 ```
 
 **List completed streams of a streamer**
 
 ```ruby
-Voyeur::Streamers.find_by_name(:name).completed
+Voyeurb::Streamer.find_by_name(:name).completed
 ```
 
 ## Development
@@ -82,7 +82,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/lurraca/voyeur. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/lurraca/voyeu-rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License

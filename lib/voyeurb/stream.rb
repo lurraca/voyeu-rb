@@ -1,4 +1,4 @@
-module Voyeur
+module Voyeurb
   class Stream < Base
 
     attr_reader :id, :scheduled_start_time, :actual_start_time, :site, :title,

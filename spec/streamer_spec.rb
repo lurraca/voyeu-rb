@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Voyeur::Streamer do
+describe Voyeurb::Streamer do
   describe '.all' do
 
     it 'returns a list of all streamers' do
@@ -17,7 +17,7 @@ describe Voyeur::Streamer do
 
       it 'returns a StreamerNotFound Exception' do
         VCR.use_cassette('invalid_streamer') do
-          expect{ described_class.by_name("NOTXXFOUND") }.to raise_error(Voyeur::StreamerNotFound)
+          expect{ described_class.by_name("NOTXXFOUND") }.to raise_error(Voyeurb::StreamerNotFound)
         end
       end
     end

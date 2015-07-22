@@ -1,9 +1,9 @@
 require 'faraday'
 require 'json'
 
-require 'voyeur/version'
+require 'voyeurb/version'
 
-module Voyeur
+module Voyeurb
   class StreamNotFound < Exception; end
   class StreamerNotFound < Exception; end
 
@@ -11,6 +11,6 @@ module Voyeur
     ENDPOINT = 'http://www.watchpeoplecode.com/api/v1'
   end
 
-  autoload :Stream, 'voyeur/stream'
-  autoload :Streamer, 'voyeur/streamer'
+  autoload :Stream, 'voyeurb/stream'
+  autoload :Streamer, 'voyeurb/streamer'
 end
