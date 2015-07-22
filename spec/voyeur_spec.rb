@@ -5,7 +5,7 @@ describe Voyeur do
     expect(Voyeur::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'has a Base class' do
+  	expect(Voyeur::Base).not_to be nil
   end
 end
