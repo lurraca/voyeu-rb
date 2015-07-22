@@ -1,8 +1,6 @@
 # Voyeur
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/voyeur`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Voyeur is a Ruby Wrapper for the [WatchPeopleCode.com](http://watchpeople.code.com) API.
 
 ## Installation
 
@@ -22,7 +20,59 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+**List live streams**
+
+```ruby
+Voyeur::Streams.live
+```
+
+**List upcoming streams**
+
+```ruby
+Voyeur::Streams.upcoming
+```
+
+**List completed streams**
+
+ ```ruby
+Voyeur::Streams.completed
+```
+
+**Get information of the stream by ID**
+
+```ruby
+Voyeur::Streams.find(:id)
+```
+
+**List all streamers**
+
+```ruby
+Voyeur::Streamers.all
+```
+
+**Get information of a streamer by name**
+
+```ruby
+Voyeur::Streamers.find_by_name(:name)
+```
+
+**List live streams of a streamer**
+
+```ruby
+Voyeur::Streamers.find_by_name(:name).live
+```
+
+**List upcoming streams of a streamer**
+
+```ruby
+Voyeur::Streamers.find_by_name(:name).upcoming
+```
+
+**List completed streams of a streamer**
+
+```ruby
+Voyeur::Streamers.find_by_name(:name).completed
+```
 
 ## Development
 
@@ -32,7 +82,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/voyeur. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/lurraca/voyeur. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License
