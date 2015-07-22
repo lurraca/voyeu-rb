@@ -7,7 +7,7 @@ Voyeu-rb is a Ruby Wrapper for the [WatchPeopleCode.com](http://watchpeople.code
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'voyeur'
+gem 'voyeu-rb'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install voyeurb
+    $ gem install voyeu-rb
 
 ## Usage
 
