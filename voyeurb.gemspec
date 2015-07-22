@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["me@lurraca.com"]
 
   spec.summary       = %q{Ruby Wrapper for WatchPeopleCode.com API}
-  spec.description   = %q{This gem will fetch data about past, live and upcoming streams so you can build cool stuffs with it.}
+  spec.description   = %q{This gem will fetch WatchPeopleCode data about past, live and upcoming streams so you can build cool stuffs with it.}
   spec.homepage      = "https://github.com/lurraca/Voyeu-rb"
   spec.license       = "MIT"
 
