@@ -1,7 +1,8 @@
 # Voyeu-rb
 
 <a href="http://badge.fury.io/rb/voyeu-rb"><img src="https://badge.fury.io/rb/voyeu-rb.svg" alt="Gem Version" height="18"></a>
-[![Circle CI](https://circleci.com/gh/lurraca/voyeu-rb/tree/master.svg?style=shield)](https://circleci.com/gh/lurraca/voyeu-rb/tree/master)
+[![Circle CI](https://circleci.com/gh/lurraca/voyeu-rb/tree/master.svg?style=shield)](https://circleci.com/gh/lurraca/voyeu-rb/tree/master)[![Coverage Status]
+(https://coveralls.io/repos/lurraca/voyeu-rb/badge.svg?branch=master&service=github)](https://coveralls.io/github/lurraca/voyeu-rb?branch=master)
 
 Voyeu-rb is a Ruby Wrapper for the [WatchPeopleCode.com](http://watchpeople.code.com) API.
 
