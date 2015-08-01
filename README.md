@@ -1,5 +1,7 @@
 # Voyeu-rb
 
+[![Circle CI](https://circleci.com/gh/lurraca/voyeu-rb/tree/master.svg?style=shield)](https://circleci.com/gh/lurraca/voyeu-rb/tree/master)
+
 Voyeu-rb is a Ruby Wrapper for the [WatchPeopleCode.com](http://watchpeople.code.com) API.
 
 ## Installation
